@@ -1,7 +1,10 @@
 import os
 import requests
 
-key = "YOUR_API_KEY"
+from dotenv import load_dotenv
+
+load_dotenv()
+key = os.environ.get("XAI_API_KEY") or os.environ.get("GROQ_API_KEY")
 url = "https://api.x.ai/v1/chat/completions"
 
 def test_xai(json_mode):
