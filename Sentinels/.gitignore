@@ -1,0 +1,61 @@
+# ---- Python ----
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ---- Databases ----
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# ---- Environment & secrets ----
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ---- IDE / OS ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Documents & references (kept locally, not in repo) ----
+*.pdf
+*.docx
+*.xlsx
+
+# ---- Test / scratch / simulation files ----
+test_event.py
+test_scenarios.py
+simulate.py
+simulate_output.txt
+*.tmp
+*.bak
+
+# ---- AI assistant context files (personal) ----
+AGENTS.md
+CLAUDE.md
+
+# ---- Keep these (overrides above) ----
+!docs/
+!docs/**
+!.env.example

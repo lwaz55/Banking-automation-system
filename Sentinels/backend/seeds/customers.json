@@ -1,0 +1,51 @@
+[
+    {
+        "id": "CUST-XYZ-001",
+        "name": "XYZ Industries SA",
+        "segment": "GGEI",
+        "loan_size": 12000000.0,
+        "risk_stage": 1
+    },
+    {
+        "id": "CUST-ABC-002",
+        "name": "ABC Textiles SARL",
+        "segment": "TPME",
+        "loan_size": 500000.0,
+        "risk_stage": 2
+    },
+    {
+        "id": "CUST-SAM-003",
+        "name": "Samir Logistics Group",
+        "segment": "GGEI",
+        "loan_size": 8500000.0,
+        "risk_stage": 2
+    },
+    {
+        "id": "CUST-BAC-004",
+        "name": "Ben Ali Construction SA",
+        "segment": "GGEI",
+        "loan_size": 22000000.0,
+        "risk_stage": 1
+    },
+    {
+        "id": "CUST-MED-005",
+        "name": "MedTech Innov SUARL",
+        "segment": "TPME",
+        "loan_size": 750000.0,
+        "risk_stage": 1
+    },
+    {
+        "id": "CUST-GFE-006",
+        "name": "Green Future Energy SA",
+        "segment": "GGEI",
+        "loan_size": 15000000.0,
+        "risk_stage": 2
+    },
+    {
+        "id": "CUST-OPT-007",
+        "name": "Optima Retail Group",
+        "segment": "TPME",
+        "loan_size": 1200000.0,
+        "risk_stage": 1
+    }
+]

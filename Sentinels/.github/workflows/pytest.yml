@@ -1,0 +1,37 @@
+name: Sentinels Backend Tests
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./backend
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install pytest httpx
+        
+    - name: Run Pytest
+      run: |
+        pytest tests/
+      env:
+        DATABASE_URL: sqlite:///./sentinels.db
+        GROQ_API_KEY: mock_key
+        OPENAI_API_KEY: mock_key

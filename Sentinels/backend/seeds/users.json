@@ -1,0 +1,7 @@
+[
+    {"username": "user_risque", "role": "operator", "department_id": "DIR_RISQUE"},
+    {"username": "user_ggei", "role": "operator", "department_id": "DIR_GGEI"},
+    {"username": "user_data", "role": "operator", "department_id": "DIR_DATA"},
+    {"username": "user_sfax", "role": "operator", "department_id": "DIR_SFAX"},
+    {"username": "admin", "role": "admin", "department_id": "DIR_RISQUE"}
+]

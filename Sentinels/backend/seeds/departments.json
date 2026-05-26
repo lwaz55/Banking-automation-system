@@ -1,0 +1,9 @@
+[
+    {"id": "DIR_RISQUE", "name": "Direction Centrale Surveillance Risque Crédit", "type": "risk"},
+    {"id": "DIR_GGEI", "name": "Direction GGEI", "type": "credit"},
+    {"id": "DIR_DATA", "name": "Direction Données Analytiques", "type": "data"},
+    {"id": "DIR_SFAX", "name": "Direction Régionale Sfax", "type": "regional"},
+    {"id": "DIR_ALM", "name": "Direction Contrôle de Gestion & ALM", "type": "finance"},
+    {"id": "DIR_GARANTIES", "name": "Direction Contrôle & Suivi des Garanties", "type": "operations"},
+    {"id": "DIR_RECOUVREMENT", "name": "Direction Recouvrement Amiable", "type": "resolution"}
+]

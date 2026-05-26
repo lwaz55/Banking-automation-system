@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+groq
+python-dotenv
+sse-starlette
+google-genai
+python-multipart
+requests
+reportlab
+chromadb
+sentence-transformers
+langchain-text-splitters
